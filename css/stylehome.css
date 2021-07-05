@@ -51,7 +51,7 @@ body {
 }
 
 .nav__list .nav__item-link:hover {
-    text-shadow: 0 0 4px rgba(255, 255, 255, 0.3);
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.4);
 }
 
 .nav__hotline {
@@ -62,6 +62,83 @@ body {
     text-decoration: none;
     color: #fff;
     margin-left: 20px;
+}
+
+.icon-list {
+    font-size: 24px;
+    line-height: 52px;
+    color: #fff;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.nav__overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    animation: fadeIn linear 0.2s;
+}
+
+.nav-mobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background-color: #838385;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: transform linear 0.2s, opacity linear 0.2s;
+}
+
+.nav-input:checked ~ .nav__overlay {
+    display: block;
+}
+
+.nav-input:checked ~ .nav-mobile {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    from {
+       opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.menu-list {
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.menu__item .menu__item-link {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 8px 0;
+}
+
+.menu__item .menu__item-link:hover {
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
+}
+
+.nav-mobile-close {
+    color: #666;
+    position: absolute;
+    top: 22px;
+    right: 16px;
+    font-size: 30px;
 }
 
 .box__img-header {
@@ -80,6 +157,10 @@ h2 .main-title {
     margin-left: 16px;
     text-decoration: none;
     color: #000;
+}
+
+.food {
+    padding-top: 50px;
 }
 
 .food-hot__img {
