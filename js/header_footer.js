@@ -6,7 +6,7 @@ function header(){
         "                </a>\n" +
         "            </div>\n" +
         "            <ul class=\"nav__list\">\n" +
-        "                <li class=\"nav__item\"><a href=\"#\" class=\"nav__item-link\">Home</a></li>\n" +
+        "                <li class=\"nav__item\"><a href=\"home.html\" class=\"nav__item-link\">Home</a></li>\n" +
         "                <li class=\"nav__item\"><a href=\"#\" class=\"nav__item-link\">Foods</a></li>\n" +
         "                <li class=\"nav__item\"><a href=\"#\" class=\"nav__item-link\">Drinks</a></li>\n" +
         "                <li class=\"nav__item\"><a href=\"Cookingrecipe.html\" class=\"nav__item-link\">Cooking recipe</a></li>\n" +
