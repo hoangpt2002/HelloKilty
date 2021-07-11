@@ -1,7 +1,7 @@
 function header(){
     var ct ="<nav class=\"nav__menu\">\n" +
         "            <div class=\"nav__logo\">\n" +
-        "                <a href=\"#\" class=\"nav__logo-link\">\n" +
+        "                <a href=\"home.html\" class=\"nav__logo-link\">\n" +
         "                    Good Foods\n" +
         "                </a>\n" +
         "            </div>\n" +
