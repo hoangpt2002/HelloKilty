@@ -1,5 +1,5 @@
 function header(){
-    var header ="<nav class=\"nav__menu\">\n" +
+    var ct ="<nav class=\"nav__menu\">\n" +
         "            <div class=\"nav__logo\">\n" +
         "                <a href=\"#\" class=\"nav__logo-link\">\n" +
         "                    Good Foods\n" +
@@ -27,20 +27,20 @@ function header(){
         "                    <span class=\"glyphicon glyphicon-remove\"></span>\n" +
         "                </label>\n" +
         "                <ul class=\"menu-list\">\n" +
-        "                    <li class=\"menu__item\"><a href=\"#\" class=\"menu__item-link\">Home</a></li>\n" +
+        "                    <li class=\"menu__item\"><a href=\"home.html\" class=\"menu__item-link\">Home</a></li>\n" +
         "                    <li class=\"menu__item\"><a href=\"#\" class=\"menu__item-link\">Foods</a></li>\n" +
         "                    <li class=\"menu__item\"><a href=\"#\" class=\"menu__item-link\">Drinks</a></li>\n" +
-        "                    <li class=\"menu__item\"><a href=\"#\" class=\"menu__item-link\">Cooking recipe</a></li>\n" +
-        "                    <li class=\"menu__item\"><a href=\"#\" class=\"menu__item-link\">News</a></li>\n" +
+        "                    <li class=\"menu__item\"><a href=\"Cookingrecipe.html\" class=\"menu__item-link\">Cooking recipe</a></li>\n" +
+        "                    <li class=\"menu__item\"><a href=\"News.html\" class=\"menu__item-link\">News</a></li>\n" +
         "                    <li class=\"menu__item\"><a href=\"#\" class=\"menu__item-link\">Contact</a></li>\n" +
         "                </ul>\n" +
         "            </div>\n" +
         "        </nav>";
-    document.getElementById("header").innerHTML=header;
+    document.getElementById("header").innerHTML= ct;
 }
 header();
 function footer(){
-    var footer="<div class=\"col-md-3 footer-brand fadeInLeft\">\n" +
+    var ct="<div class=\"col-md-3 footer-brand fadeInLeft\">\n" +
         "            <h2>Good Foods</h2>\n" +
         "            <p>Love is put in the dish as a spice to make the dish richer. So when we appreciate the cook's work, we feel better.</p>\n" +
         "            <p>Copyright © 2021 by HelloKilty</p>\n" +
@@ -85,6 +85,6 @@ function footer(){
         "                </div>\n" +
         "            </p>\n" +
         "        </div>";
-    document.getElementById("footer").innerHTML=footer;
+    document.getElementById("footer").innerHTML=ct;
 }
 footer();
