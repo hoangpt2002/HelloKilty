@@ -5,4 +5,38 @@
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     font-size: 24px;
+    margin-bottom: 15px;
+}
+.icon{
+    width: 100px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.category{
+    text-align: center;
+    font-size: 20px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.category span{
+    color: black;
+}
+.category .col-md-3:hover{
+    transform: scale(1.1);
+}
+.cover{
+    border-radius: 5px;
+    width: 100%;
+}
+.recipes h3{
+    color: black;
+}
+.recipes p{
+    color: black;
+}
+.recipes a:hover{
+    text-decoration: none;
+}
+.recipes{
+    margin-bottom: 30px;
 }
