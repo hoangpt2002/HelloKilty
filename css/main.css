@@ -39,4 +39,8 @@
 }
 .recipes{
     margin-bottom: 30px;
+    min-height: 380px;
+}
+.button{
+    text-align: center;
 }
