@@ -44,3 +44,33 @@
 .button{
     text-align: center;
 }
+.sub{
+    margin-left: 10px;
+}
+.navrecipes li{
+    list-style: none;
+}
+.navrecipes a{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+}
+.sub a{
+    color: #636363;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    height: 25px;
+    line-height: 25px;
+}
+.navrecipes a:hover{
+    text-decoration: none;
+    color: #fa5757;
+}
+.click{
+    font-size: 25px;
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+}

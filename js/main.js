@@ -37,4 +37,37 @@ function loadmore(){
             }
         }
     });
+};
+function showhide1() {
+    var x = document.getElementById("sub1");
+    var y=document.getElementById("button1");
+    if (x.style.display === "none"){
+        x.style.display = "block";
+        y.innerHTML="–";
+    } else {
+        x.style.display = "none";
+        y.innerHTML="+";
+    }
+}
+function showhide2() {
+    var x = document.getElementById("sub2");
+    var y=document.getElementById("button2");
+    if (x.style.display === "none"){
+        x.style.display = "block";
+        y.innerHTML="–";
+    } else {
+        x.style.display = "none";
+        y.innerHTML="+";
+    }
+}
+function showhide3() {
+    var x = document.getElementById("sub3");
+    var y=document.getElementById("button3");
+    if (x.style.display === "none"){
+        x.style.display = "block";
+        y.innerHTML="–";
+    } else {
+        x.style.display = "none";
+        y.innerHTML="+";
+    }
 }
