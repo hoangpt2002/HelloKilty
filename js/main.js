@@ -27,7 +27,7 @@ function loadmore(){
             for (var i=0;i<p.length;i++){
                 var ct = "<div class=\"col-md-3\">\n" +
                     "                        <div class=\"recipes\">\n" +
-                    "                            <a href=\"#\">\n" +
+                    "                            <a href=\""+p[i].link+"\">\n" +
                     "                                <img class=\"cover\" src=\""+p[i].image+"\">\n" +
                     "                                <h3>"+p[i].name+"</h3>\n" +
                     "                                <p>"+p[i].description+"</p>\n" +
