@@ -21,15 +21,26 @@
 .category span{
     color: black;
 }
+.category .col-md-3{
+    transition: 0.5s;
+}
 .category .col-md-3:hover{
     transform: scale(1.1);
 }
 .cover{
+    max-width: 100%;
+}
+.recipes{
+    overflow: hidden;
     border-radius: 5px;
-    width: 100%;
+    margin-bottom: 30px;
+    min-height: 380px;
 }
 .recipes a{
     text-decoration: none;
+}
+.recipes a > img{
+    transition: 0.5s;
 }
 .recipes h3{
     color: black;
@@ -39,11 +50,6 @@
 }
 .recipes a:hover{
     text-decoration: none;
-    transform: scale(1.5);
-}
-.recipes{
-    margin-bottom: 30px;
-    min-height: 380px;
 }
 .button{
     text-align: center;
@@ -80,7 +86,7 @@
 }
 .resources li{
     list-style: none;
-    margin-left: 15px;
+    margin: 10px;
 }
 .resources{
     padding-left: 150px;
@@ -107,4 +113,12 @@ input:checked + label {
     color: white;
     width: 40%;
     margin-left: 80px;
+}
+.recipes a:hover > img{
+    opacity: 0.85;
+    transform: scale(1.15);
+}
+.thump{
+    width: 24%;
+    margin-bottom: 30px;
 }
