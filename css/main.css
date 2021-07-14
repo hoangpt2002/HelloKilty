@@ -28,6 +28,9 @@
     border-radius: 5px;
     width: 100%;
 }
+.recipes a{
+    text-decoration: none;
+}
 .recipes h3{
     color: black;
 }
@@ -36,6 +39,7 @@
 }
 .recipes a:hover{
     text-decoration: none;
+    transform: scale(1.5);
 }
 .recipes{
     margin-bottom: 30px;
@@ -80,6 +84,9 @@
 }
 .info{
     text-align: center;
+}
+.info img{
+    width: 20%;
 }
 .resources label{
     font-weight: lighter;
