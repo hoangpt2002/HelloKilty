@@ -82,15 +82,29 @@
     list-style: none;
     margin-left: 15px;
 }
+.resources{
+    padding-left: 150px;
+}
+input:checked + label {
+    text-decoration: line-through;
+}
 .info{
     text-align: center;
 }
 .info img{
     width: 20%;
 }
-.resources label{
-    font-weight: lighter;
+.header-recipes {
+    position: relative;
+    margin-bottom: 45px;
 }
-input:checked + label {
-    text-decoration: line-through;
+.img-recipes{
+    border-radius: 15px;
+}
+.header-recipes .content {
+    position: absolute;
+    bottom: 170px;
+    color: white;
+    width: 40%;
+    margin-left: 80px;
 }
