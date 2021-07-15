@@ -25,7 +25,7 @@ function loadmore(){
             p=rs;
             var covid = $("#covid");
             for (var i=0;i<p.length;i++){
-                var ct = "<div class=\"col-md-3\">\n" +
+                var ct = "<div class=\"col-md-3 col-sm-6 col-xs-12\">\n" +
                     "                        <div class=\"recipes\">\n" +
                     "                            <a href=\""+p[i].link+"\">\n" +
                     "                                <img class=\"cover\" src=\""+p[i].image+"\">\n" +
