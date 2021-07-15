@@ -119,6 +119,14 @@ input:checked + label {
     transform: scale(1.15);
 }
 .thump{
-    width: 24%;
-    margin-bottom: 30px;
+    width: 20%;
+}
+.cmt p, .cmt img {
+    margin-left: 15px;
+}
+ol li{
+    padding-top: 52px;
+}
+.step a{
+    margin-left: 15px;
 }
