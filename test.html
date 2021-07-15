@@ -1,168 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,600;1,700&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/owl.theme.default.css" type="text/css">
-  <link rel="stylesheet" href="css/main.css" type="text/css">
-  <link rel="stylesheet" href="css/mklb.css" />
-  <title>Trà Lipton cam thảo</title>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      position: relative;
+    }
+    #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+    #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+    #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  </style>
 </head>
-<body>
-<section class="main">
-  <div class="container">
-    <!--            Giới thiệu-->
-    <div class="row">
-      <div class="col-md-6">
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/8TfpNWsHBwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div class="col-md-6">
-        <h1>Trà Lipton cam thảo</h1>
-        <p>Trà Lipton cam thảo là một trong những biến tấu đặc biệt từ trà Lipton truyền thống,
-          được kết hợp giữa các nguyên liệu tự nhiên có hương thơm thanh mát và nhẹ nhàng.
-          Với cách làm đơn giản sẽ mang đến cho bạn thức uống tốt cho sức khỏe,
-          thích hợp thưởng thức vào những ngày oi bức hay muốn thanh lọc cơ thể.
-          Để hiểu rõ hơn về hương vị của món trà lipton cam thảo này,
-          hãy cùng tham khảo thêm phần công thức dưới đây nhé!</p>
-        <div class="row">
-          <div class="col-md-4 info">
-            <img src="images/difficulty.png">
-            <h4>Độ khó</h4>
-            <p>Rất dễ</p>
-          </div>
-          <div class="col-md-4 info">
-            <img src="images/time.png">
-            <h4>Thời gian</h4>
-            <p>20 phút</p>
-          </div>
-          <div class="col-md-4 info">
-            <img src="images/khauphan.png">
-            <h4>Khẩu phần</h4>
-            <p>2 người</p>
-          </div>
-        </div>
-      </div>
+<body data-spy="scroll" data-target=".navbar" data-offset="200">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
     </div>
-    <!--            Công thức-->
-    <div class="row">
-      <div class="col-md-7">
-        <h2>Hướng dẫn thực hiện</h2>
-        <ol>
-          <li>
-            <p>Cho 2 gói trà túi lọc Lipton nhãn vàng vào bình, rót 400ml nước sôi vào trà và đậy nắp để ủ khoảng 15 phút.</p>
-            <img class="mklbItem thump" src="images/1.1.jpeg" data-gallery="myGal" />
-            <img class="mklbItem thump" src="images/1.2.jpeg" data-gallery="myGal" />
-            <img class="mklbItem thump" src="images/1.3.jpeg" data-gallery="myGal" />
-            <img class="mklbItem thump" src="images/1.4.jpeg" data-gallery="myGal" />
-          </li>
-          <li>
-            Sau khi ủ, bạn lấy bỏ túi trà ra và cho 30gr đường phèn vào, dùng muỗng khuấy đều.
-          </li>
-          <li>
-            Cho 20ml nước cốt chanh, thêm 10gr cam thảo cắt lát, 15gr táo tàu,15gr xí muội và 15gr kỷ tử vào phần trà.
-            Dùng muỗng khuấy đều để các nguyên liệu tăng thêm hương vị, giúp đồ uống đậm đà hơn.
-          </li>
-          <li>
-            Thêm đá viên vào ly, rót phần nước vào rồi cho phần topping lên trên cùng và thưởng thức.
-          </li>
-        </ol>
-      </div>
-      <div class="col-md-5 resources">
-        <h2>Nguyên liệu</h2>
-        <ul>
-          <li>
-            <input type="checkbox">
-            <label>Lipton nhãn vàng 2 gói</label>
-          </li>
-          <li>
-            <input type="checkbox">
-            <label>Cam thảo cắt lát 10gr</label>
-          </li>
-          <li>
-            <input type="checkbox">
-            <label>Xí muội 15gr</label>
-          </li>
-          <li>
-            <input type="checkbox">
-            <label>Đường phèn 20gr</label>
-          </li>
-          <li>
-            <input type="checkbox">
-            <label>Nước cốt chanh 20ml</label>
-          </li>
-          <li>
-            <input type="checkbox">
-            <label>Táo tàu 15gr</label>
-          </li>
-          <li>
-            <input type="checkbox">
-            <label>Kỷ tử 15gr</label>
-          </li>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Section 1</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#section3">Section 3</a></li>
         </ul>
       </div>
     </div>
-    <!--            Món liên quan-->
-    <div class="row">
-      <div class="tag">MÓN KHÁC</div>
-      <div class="col-md-3">
-        <div class="recipes">
-          <a href="Tralipton.html">
-            <img class="cover" src="images/recipe9.jpeg">
-            <h3>Mug Cake Dừa</h3>
-            <p>Mug Cake Dừa là một loại bánh bạn có thể hoàn thành một cách nhanh chóng chỉ trong vòng 10 phút.
-              Nếu bạn là một người bận rộn và yêu thích đồ ngọt, đây sẽ là một món hoàn hảo dành cho bạn.</p>
-          </a>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="recipes">
-          <a href="Tralipton.html">
-            <img class="cover" src="images/recipe10.jpeg">
-            <h3>Opera Cake</h3>
-            <p>Opera là một loại bánh ngọt có nguồn gốc từ Pháp. Bánh Opera bao gồm 7 lớp, được làm từ cốt bánh hạnh nhân,
-              chocolate, syrup cà phê và kem bơ cà phê, tượng trưng cho 7 nốt nhạc.
-            </p>
-          </a>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="recipes">
-          <a href="Tralipton.html">
-            <img class="cover" src="images/recipe11.jpeg">
-            <h3>Bánh Mì Mè Đen</h3>
-            <p>Bánh mì mè đen Hàn Quốc là một món ăn vặt rất được ưa chuộng trong giới trẻ hiện nay.
-              Bánh mì giòn bên ngoài, dẻo bên trong, hòa với mùi mè đen rang thơm lừng sẽ làm bạn ăn không ngừng đấy.  </p>
-          </a>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="recipes">
-          <a href="Tralipton.html">
-            <img class="cover" src="images/recipe12.jpg">
-            <h3>Bánh cuốn</h3>
-            <p>Bánh Cuốn Nóng - món ngon dễ làm, cực hấp dẫn cho bữa sáng gia đình. Cách làm bánh cuốn
-              bằng chảo chống dính đơn giản, vỏ bánh cuốn dai, nhân nấm, thịt băm xào đậm vị, béo bùi, thật khó cưỡng lại.
-            </p>
-          </a>
-        </div>
-      </div>
-    </div>
   </div>
-</section>
-<footer class="footer-bs">
-  <div class="row" id="footer">
-  </div>
-</footer>
-<script src="js/jquery-3.6.0.js" type="text/javascript"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-<script src="js/owl.carousel.js" type="text/javascript"></script>
-<script src="js/main.js" type="text/javascript"></script>
-<script src="js/header_footer.js" type="text/javascript"></script>
-<script src="js/mklb.js"></script>
+</nav>
+
+<div id="section1">
+  <h1>Section 1</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section2">
+  <h1>Section 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section3">
+  <h1>Section 3</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
 </body>
 </html>
