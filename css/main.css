@@ -132,6 +132,7 @@ input:checked + label {
 }
 ol li{
     padding-top: 52px;
+    margin-left: 15px;
 }
 .step a{
     margin-left: 15px;
