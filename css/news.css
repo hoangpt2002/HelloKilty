@@ -20,6 +20,10 @@
     margin-top: 16px;
 }
 
+.new-item:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
 .new-item .img img {
     width: 250px;
     border: 2px solid #ccc;
